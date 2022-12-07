@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Lexend Mega", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lexend Mega", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 }
 
@@ -80,10 +80,12 @@ span {
 	padding: 5px;
 	text-align: center;
 }
+
 #team {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 .teammate {
 	margin: 20px 0;
 	background-image: url("./images/blurred-road.jpg");
@@ -110,11 +112,13 @@ span {
 .personnel h2 {
 	color: #fff;
 }
+
 .contact {
-    height: 150px;
+	height: 150px;
 }
+
 .contact > * {
-    margin: 25px;
+	margin: 25px;
 }
 
 footer {
