@@ -1,20 +1,124 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: black;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+	text-align: center;
+}
+
+body {
+    font-family: "Lexend Mega", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 
 header {
-    text-align: center;
-    font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 0 30px;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 1.2rem;
+	margin: 10px auto;
 }
 
 header h1 {
-    padding: 25px;
+	padding: 25px 0 20px 0;
+	font-size: 2em;
 }
-header nav ul li {
-    display: inline-block;
-    padding: 0 1rem;
+
+nav ul li {
+	display: inline-block;
+	padding: 0 1rem;
+}
+
+.mission {
+	display: flex;
+	height: 300px;
+	background-image: url("./images/building-1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 25px 0;
+	padding: 20% 0;
+}
+
+.content {
+	background-color: white;
+	height: fit-content;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.content h3 {
+	margin: 0 0 10px 0;
+	line-height: 1.5rem;
+}
+
+.sectors {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sector {
+	display: flex;
+	align-items: center;
+	margin: 10px 20px;
+}
+
+.sector img {
+	width: 200px;
+	margin: 0 20px;
+}
+
+span {
+	padding: 5px;
+	text-align: center;
+}
+#team {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.teammate {
+	margin: 20px 0;
+	background-image: url("./images/blurred-road.jpg");
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-basis: 215px;
+}
+
+.personnel {
+	display: block;
+	margin: 2% 0 1% 0;
+	padding: 5px;
+	width: 225px;
+}
+
+.personnel img {
+	height: auto;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.personnel p,
+.personnel h2 {
+	color: #fff;
+}
+.contact {
+    height: 150px;
+}
+.contact > * {
+    margin: 25px;
+}
+
+footer {
+	margin-top: 20px;
+	height: 100px;
+	padding: 20px;
 }
